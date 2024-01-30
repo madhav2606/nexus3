@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*------------------------
+-------HassanRao.com------
+--------------------------*/
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111111;
+  }
+ .wrapper .container{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+.wrapper .container .card img{
+    width: 200px;
+  }
+ .wrapper .container .card{
+    width: 31%;
+    background-color: #1d1d1d;
+    padding: 20px;
+    border-radius: 0px 0px 5px 5px;
+    padding-bottom: 45px;
+    text-align: center;
+    margin: 0 15px;
+  }
+  .wrapper .container .card p{
+    color:#fff;
+    margin-bottom: 10px;
+  }
+.border-top-yellow{
+    border-top: 4px solid #FCAF4A;
+    color:#FCAF4A;
+  }
+.border-top-green{
+    border-top: 4px solid #24EE92;
+    color:#24EE92;
+  }
+.border-top-blue{
+    border-top: 4px solid #549EF2;
+    color:#549EF2;
+  }
+  .wrapper .container .card .explore-btn{
+    text-align: center;
+  }
+  .wrapper .container .card .explore-btn a{
+    padding: 12px 45px;
+    text-align: center;
+    background-color: #222222;
+    color: #3D62FC;
+    font-weight: bolder;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  .wrapper .container .card .explore-btn a:hover i{
+    margin-left: 5px;
+    transition: 0.18s all ease;
+  }
+
+  @media (max-width: 768px) {
+    .wrapper{
+        height: auto;
+      }
+      .wrapper .container{
+        flex-direction: column;
+        height: auto;
+      }
+      .wrapper .container .card{
+        width: 100%;
+        margin: 25px 0;
+      }
+      .wrapper .container .card:last-child{
+        margin-bottom: 25px;
+      }
+  }
